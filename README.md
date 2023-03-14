@@ -13,4 +13,5 @@ $ pip install pdfrw
 $ python manualprintPDF.py input.py output.py
 ```
 **效果**：将原pdf文件分割成两个pdf文件。其中奇数页正序排列，偶数页倒序排列。
+
 **ps:** 当然考虑到有的文档是奇数页的，在最后插入了一个空白页凑成偶数页。
