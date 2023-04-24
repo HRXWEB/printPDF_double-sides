@@ -19,7 +19,7 @@ class manualPdfPrint:
         self.even_pages = []
 
     def gen_out_f(self, out_f:str):
-        out_f = out_f.split('.')[0]
+        out_f = out_f.split('.pdf')[0]
         self.out_odd_f = PdfWriter(out_f + '_odd.pdf')
         self.out_even_f = PdfWriter(out_f + '_even.pdf')
 
