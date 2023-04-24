@@ -10,7 +10,8 @@ $ pip install pdfrw
 
 ## 使用方法
 ```shell
-$ python manualprintPDF.py input.py output.py
+$ python manualprintPDF.py <path/to/input/pdf/file> <pah/to/outout/pdf/file>
+# example: python manualprintPDF.py ./demo.pdf ./output.pdf
 ```
 **效果**：将原pdf文件分割成两个pdf文件。其中奇数页正序排列，偶数页倒序排列。
 
